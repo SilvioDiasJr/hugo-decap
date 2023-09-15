@@ -13,7 +13,7 @@
 <body>
   <h1>Nice. It's looking good already.</h1>
   <ul>
-    {{ range (where .Site.RegularPages "Section" "blog") }}
+    {{ range (where .Site.RegularPages "Section" "noticias") }}
     <li>
       <a href="{{ .RelPermalink }}">
         {{ .Title }}
